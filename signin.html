@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sign In — TrackSpace</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-icon">P</span><span>TrackSpace</span>
+    </a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="navigation">
+      <a href="index.html">Home</a>
+      <a href="how-it-works.html">How It Works</a>
+      <a href="how-it-works.html#partners">For Parking Partners</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container signin-page">
+    <section class="signin-card">
+      <p class="eyebrow">WELCOME TO TRACKSPACE</p>
+      <h1>Sign in</h1>
+      <p class="intro">This is a visual app preview. Sign-in is not connected.</p>
+
+      <form id="signin-form">
+        <label for="email">Email address</label>
+        <input id="email" type="email" placeholder="you@example.com" required>
+
+        <label for="password">Password</label>
+        <input id="password" type="password" placeholder="Enter your password" required>
+
+        <button class="button full-button" type="submit">Sign in</button>
+        <p class="form-message" id="form-message" aria-live="polite"></p>
+      </form>
+
+      <a class="back-link" href="index.html">← Back to Home</a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 TrackSpace · Student assessment prototype</span>
+    <span>Preview only. No details are submitted or stored.</span>
+  </footer>
+</body>
+</html>
